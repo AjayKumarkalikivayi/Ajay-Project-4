@@ -1,0 +1,65 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f415;
+}
+header {
+    background-color: #33333334;
+    color: #ffffff18;
+    text-align: center;
+    padding: 1rem;
+}
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+h1 {
+    color: #d81313;
+}
+nav {
+    background-color: #08fdf5;
+    padding: 8px;
+}
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+nav ul li {
+    margin: 16px;
+}
+nav ul li a {
+    color: rgb(255, 0, 0);
+    text-decoration: none;
+}
+.about-content {
+    background-color: #ffffff11;
+    border-radius: 5px;
+    padding: 20px;
+    margin-top: 20px;
+}
+.team-member {
+    display: inline-block;
+    width: 30%;
+    margin: 1.5%;
+    text-align: center;
+}
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+footer {
+    background-color: #0e74e96c;
+    color: rgb(255, 0, 0);
+    text-align: center;
+    padding: 0px;
+    bottom: 0;
+    width: 100%;
+}

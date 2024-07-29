@@ -1,0 +1,53 @@
+body{
+    background-color: rgb(245, 221, 4);
+}
+h1{
+    text-shadow: 5px 5px 10px rgb(253, 253, 246);
+    color: rgb(64, 0, 255);
+}
+nav{
+    background-color: #03f4a4;
+    color: white;
+    margin-top: 10;
+    padding: 0px;
+}
+nav ul {
+    list-style-type:georgian;
+    margin : 0;
+    padding : 0;
+}
+nav ul li{
+    display: inline;
+    margin-left: 20px;
+    text-align: center;
+}
+nav ul li a{
+    color: rgb(247, 0, 255);
+     text-decoration:none;
+    
+}
+nav ul li a:hover{
+    text-decoration: underline;
+
+}
+section{
+    padding: 0px;
+}
+footer{
+    background-color: rgb(255, 0, 0);
+    color: #fff;
+    text-align:left;
+    margin-top: 260;
+    padding: 0px;
+}
+h4{
+    background-color: rgb(255, 149, 11);
+    color: rgb(0, 60, 255);
+    margin-top: 5;
+    padding: 15px;
+}
+a{  
+    
+    
+    color: rgb(255, 21, 0);
+}

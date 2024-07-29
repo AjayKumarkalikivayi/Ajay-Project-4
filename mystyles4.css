@@ -1,0 +1,38 @@
+body{
+    background-image: url("ko.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+   
+} 
+h1{
+        color:rgb(10, 207, 238);
+    }
+
+table{
+    box-shadow:10px 10px 10px 10px  black;
+    border-spacing: 10px;
+    font-size: 30px;
+    padding: 3%;
+}
+table tr td{
+   text-align: right;
+}
+button{
+    text-align: center;
+    height:40px;
+    width: 60px;
+}
+
+button:hover {
+    background-color: rgba(228, 48, 17, 0.908) ;
+}
+table tr td a{
+    font-size: medium;
+}
+a:hover{
+    color:yellow;
+}
+h3{
+     color:rgba(255, 255, 255, 0.112);
+}

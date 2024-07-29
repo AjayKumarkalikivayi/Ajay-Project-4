@@ -1,0 +1,90 @@
+<html>
+<head>
+    
+    <title>Travel Website - Login/Register</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+
+            
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin:30;
+            border-color: blue;
+        }
+        @media screen and (min-width:320px){
+            body{
+                background-color: rgb(0, 38, 231);}
+            }
+            /* Tablet,ipad */
+            @media screen and ( min-width:550px)and(max-width:1024px){
+                body{
+                    background-color: rgb(238, 29, 6);
+                }
+            }
+            /* Desktops and laptops*/
+            @media screen and ( min-width:1025px){
+                body{
+                    background-color: rgb(23, 192, 231);
+                }}
+        .container {
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 2rem;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+            color: #333;
+            text-shadow: 5px 5px 10px rgb(0, 255, 94),10px 10px 20px 
+        }
+        form {
+            display: flex;;
+            flex-direction: column;
+        }
+        input {
+            margin: 10px 0;
+            padding: 10px;
+            border: 2px solid #7422ac;
+            border-radius: 5px;
+        }
+        button {
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            padding: 10px;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 10px;
+            margin-bottom: 10px;
+        }
+        button:hover {
+            background-color: #0c130c;
+        }
+        .switch h3 {
+            text-align: center;
+            margin-top: 40;
+            color:rgb(50, 16, 112)
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Welcome to TravelWorld</h2>
+        <form id="loginForm" action="home.html">
+            <input type="email" placeholder="Email" required>
+            <input type="password" placeholder="Password" required>
+            <button type="submit">Login</button>
+        </form>
+        <div class="switch">
+            Don't have an account? <a href="#" id="switchToRegister"><h3>Register<h3></a>
+        </div>
+    </div>
+
+   
+    
+</body>
+</html>
+                   
